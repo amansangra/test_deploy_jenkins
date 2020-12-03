@@ -21,6 +21,7 @@ pipeline {
                 branch 'staging'
             }
             steps {
+                echo 'Deploying to staging'
                 # ADD STEPS HERE
             }
         }
@@ -30,6 +31,7 @@ pipeline {
                 branch 'master'
             }
             steps {
+                echo 'Deploying to production'
                 # ADD STEPS HERE
             }
         }
