@@ -8,3 +8,4 @@ if __name__ == '__main__':
     # Shifting
     print(now.add(days=2))
     print(now)
+    print("THIS IS STAGING")
