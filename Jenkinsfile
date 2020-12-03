@@ -16,7 +16,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to development') {
+        stage('Deploy to staging') {
             when {
                 branch 'staging'
             }
